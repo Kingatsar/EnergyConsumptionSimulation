@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#viewSimulation {
+  border: solid;
+  border-color: black;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  margin-top: 50px;
+}

@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energy Management Simulation</title>
+
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+<body>
+
+  <div id="params">
+    <h1>Energy Management Simulation</h1>
+
+    <form method="post" action="">
+
+      {% csrf_token %}
+
+      <!-- Clean Energy Producers -->
+      <label for="producer-count">Number of Clean Energy Producers:</label>
+
+      <input type="number" id="producer-count" name="producer_count" value="0"><br>
+
+
+      <!-- Batteries -->
+      <label for="battery-count">Number of Batteries:</label>
+
+      <input type="number" id="battery-count" name="battery_count" value="0"><br>
+
+
+      <!-- Max Battery Capacity -->
+      <label for="max-battery-capacity">Max Battery Capacity (kWh):</label>
+
+      <input type="number" id="max-battery-capacity" name="max_battery_capacity" value="0"><br>
+
+
+      <!-- Generate Simulation Button -->
+      <button id="generate-button">Generate Simulation</button>
+
+      <h1>{{simulation}}</h1>
+
+    </form>
+
+  </div>
+
+
+</body>
+
+</html>
