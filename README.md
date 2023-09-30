@@ -25,7 +25,7 @@ Open a terminal and navigate to the "hymateTask" directory.
 Create a Conda environment named "pygmt" using the following commands:
 
 ```bash
-conda create --name pygmt --channel conda-forge pygmt
+conda create --name pygmt 
 conda activate pygmt
 pip install pandas 
 pip install django
