@@ -13,7 +13,7 @@ To install energySystemApp on your machine, you'll need the following prerequisi
 ## Installation Steps
 
 ### Clone the Repository
-Clone the iVoG repository using Git:
+Clone the energySystemApp repository using Git:
 
 ```bash
 git clone https://github.com/Kingatsar/EnergyConsumptionSimulation.git
